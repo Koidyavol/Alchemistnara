@@ -105,5 +105,5 @@ function drawSprite(u,cx,cy,t,now){
  else{p(3,-2,1,4,'#c7d2e2');p(3,-3,2,1,'#f3f6ff');}
  p(-1,-4,1,1,'#211d2a');p(1,-4,1,1,'#211d2a');
 }
-init();resize();
+init();resize();function animate(){draw();requestAnimationFrame(animate);}requestAnimationFrame(animate);
 </script></body></html>
